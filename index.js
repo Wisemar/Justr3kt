@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 var bot = new Discord.Client();
 
-bot.on("ready, function() {
+bot.on("ready", function() {
     bot.user.setgame("Développeur = Wisemar");
     console.log("Bot ON");
 });
